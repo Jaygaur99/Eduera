@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'chat',
 
     'memcache_status',
-    'embed_video',
     'rest_framework',
     'channels',
 ]
