@@ -1,2 +1,3 @@
-{% load embed_video_tags %}
-{% video item.url "small" %}
+{% comment %} {% load embed_video_tags %}
+{% video item.url "small" %} {% endcomment %}
+<video src="{{ item.url }}"></video>
